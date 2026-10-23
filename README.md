@@ -1,4 +1,8 @@
-# -zero-cluster-mlops
-A hands-on course based on the zero-cluster MLOps pattern: **BigQuery ML + Cloud Run Jobs + OpenTelemetry**, using the public dataset `bigquery-public-data.ml_datasets.census_adult_income` and only the Google Cloud console (no CLI).
+# Zero Cluster MLOps
 
-Start at [lessons/00-overview.md](lessons/00-overview.md). Job source code is in [job/](job).
+Build a serverless machine-learning workflow without managing Kubernetes or other clusters. Choose a cloud course:
+
+- [GCP](GCP/README.md) — BigQuery ML, Cloud Run Jobs, Cloud Scheduler, and OpenTelemetry.
+- [AWS](AWS/README.md) — Amazon S3, SageMaker, ECS Fargate, EventBridge, CloudWatch, and X-Ray.
+
+Each cloud course has its own lessons and runnable batch-scoring job.
